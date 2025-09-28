@@ -49,8 +49,22 @@ const AboutSection = () => {
                   className="text-[16px] sm:text-[18px] md:text-[19px] lg:text-[20px] font-medium leading-[28px] sm:leading-[33px] md:leading-[35px] lg:leading-[38px] text-justify text-text-muted w-full"
                   style={{ fontFamily: 'Lato' }}
                 >
-                  <span>A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. </span>
-                  <span>designs.In this digital atelier.</span>
+                  <span>
+  I’m Challa Sainath Chowdary, a passionate Software Engineer with a 
+  B.Tech in Computer Science and Engineering. I specialize as a 
+  Full Stack Developer, with hands-on expertise in 
+  Java Full Stack, React.js, Node.js, and the PERN stack (PostgreSQL, Express, React, Node). 
+   My journey in technology has equipped me to build 
+  scalable web applications, craft clean and efficient code, and deliver 
+  end-to-end solutions — from intuitive front-end interfaces to powerful 
+  back-end systems. I thrive on solving challenges, debugging complex issues, 
+  and turning ideas into impactful digital experiences.   
+</span>
+                  {/* <span>A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. </span> */}
+                  <span>Beyond just writing code, I see development as an art — blending logic, design, 
+  and innovation to create solutions that truly make a difference. With a drive 
+  to continuously learn and grow, I aim to contribute to projects that push 
+  boundaries and create value in the digital world.  </span>
                 </p>
                 
                 <Button
@@ -73,7 +87,12 @@ const AboutSection = () => {
                   position="relative"
                   variant="primary"
                   size="medium"
-                  onClick={() => {}}
+                  onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = "/cv.pdf";
+                    link.download = "Sainath_CV.pdf"; // suggested file name
+                    link.click();
+                    }}
                   className="flex items-center gap-[10px] hover:opacity-90 transition-opacity"
                 >
                   <img 

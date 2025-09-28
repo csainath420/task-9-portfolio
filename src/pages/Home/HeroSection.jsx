@@ -50,26 +50,51 @@ const HeroSection = () => {
                   
                   <div className="flex justify-start items-end w-full mt-[8px] md:mt-[12px] lg:mt-[16px]">
                     <div className="flex items-center gap-[10px] md:gap-[15px] lg:gap-[20px]">
-                      <img 
-                        src="/images/img_frame_52.png" 
-                        alt="Social icon 1" 
-                        className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px]"
-                      />
+                      <a 
+                        href="https://www.instagram.com/csainathchowdary?igsh=MThzaHpwbWJubHoyYg==" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        <img 
+                          src="/images/img_frame_52.png" 
+                          alt="Instagram" 
+                          className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px] cursor-pointer hover:opacity-80 transition-opacity"
+                        />
+                      </a>
+
+                      <a 
+                        href="https://www.linkedin.com/in/sainath-chowdary-5b3ba3244/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
                       <img 
                         src="/images/img_frame_53.png" 
-                        alt="Social icon 2" 
-                        className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px]"
+                        alt="LinkedIn" 
+                        className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px] cursor-pointer hover:opacity-80 transition-opacity"
                       />
+                      </a>
+                      <a 
+                        href="https://dribbble.com/sainathchowdary-challa" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
                       <img 
                         src="/images/img_frame_54.png" 
-                        alt="Social icon 3" 
+                        alt="dribbble" 
                         className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px]"
                       />
+                      </a>
+                      <a 
+                        href="https://www.behance.net/challasainath" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
                       <img 
                         src="/images/img_frame_55.png" 
-                        alt="Social icon 4" 
+                        alt="Behance" 
                         className="w-[30px] h-[30px] md:w-[35px] md:h-[35px] lg:w-[40px] lg:h-[40px]"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -118,7 +143,12 @@ const HeroSection = () => {
                     margin="0px"
                     variant="secondary"
                     size="medium"
-                    onClick={() => {}}
+                    onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = "/cv.pdf";
+                    link.download = "Sainath_CV.pdf";
+                    link.click();
+                    }}
                     className="w-full sm:w-auto bg-transparent hover:bg-text-muted hover:bg-opacity-10 transition-all"
                   />
                 </div>
@@ -134,13 +164,13 @@ const HeroSection = () => {
                       className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-extrabold leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[29px] text-text-accent"
                       style={{ fontFamily: 'Lato' }}
                     >
-                      5+
+                      0+
                     </span>
                     <span 
                       className="text-[16px] sm:text-[18px] md:text-[19px] lg:text-[20px] font-bold leading-[20px] sm:leading-[22px] md:leading-[23px] lg:leading-[24px] text-text-lighter"
                       style={{ fontFamily: 'Lato' }}
                     >
-                      Experiences
+                      Experience
                     </span>
                   </div>
                   <div className="flex flex-col gap-[6px] md:gap-[9px] lg:gap-[12px] justify-start items-start w-full border-r border-text-muted py-[3px] md:py-[4px] lg:py-[6px]">
@@ -148,7 +178,7 @@ const HeroSection = () => {
                       className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-extrabold leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[29px] text-text-accent"
                       style={{ fontFamily: 'Lato' }}
                     >
-                      20+
+                      2+
                     </span>
                     <span 
                       className="text-[16px] sm:text-[18px] md:text-[19px] lg:text-[20px] font-bold leading-[20px] sm:leading-[22px] md:leading-[23px] lg:leading-[24px] text-text-lighter"
@@ -162,7 +192,7 @@ const HeroSection = () => {
                       className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-extrabold leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[29px] text-text-accent"
                       style={{ fontFamily: 'Lato' }}
                     >
-                      80+
+                      4+
                     </span>
                     <span 
                       className="text-[16px] sm:text-[18px] md:text-[19px] lg:text-[20px] font-bold leading-[20px] sm:leading-[22px] md:leading-[23px] lg:leading-[24px] text-text-lighter"
@@ -188,7 +218,7 @@ const HeroSection = () => {
               
               <img 
                 src="/images/img_man_in_black_suit.png" 
-                alt="Mahmood Fazile - UI/UX Designer" 
+                alt="Sainath chowdary - UI/UX Designer" 
                 className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[260px] sm:w-[336px] md:w-[420px] lg:w-[520px] h-[390px] sm:h-[500px] md:h-[650px] lg:h-[780px] object-cover rounded-[122px] sm:rounded-[158px] md:rounded-[196px] lg:rounded-[244px]"
               />
             </div>

@@ -5,32 +5,32 @@ const ServicesSection = () => {
     {
       icon: "/images/img_2_user.png",
       title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      description: "Crafting intuitive and engaging mobile app designs that balance aesthetics with usability."
     },
     {
       icon: "/images/img_2_user.png",
-      title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      title: "Web Design",
+      description: "Designing responsive, user-friendly websites that deliver seamless digital experiences."
     },
     {
       icon: "/images/img_2_user.png",
-      title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      title: "UI/UX Design",
+      description: "Creating wireframes, prototypes, and design systems that enhance user satisfaction."
     },
     {
       icon: "/images/img_2_user.png",
-      title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      title: "Product Design",
+      description: "Transforming ideas into market-ready products with design thinking and user research."
     },
     {
       icon: "/images/img_2_user.png",
-      title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      title: "Graphic Design",
+      description: "Delivering impactful visuals for social media, marketing, and promotional materials.."
     },
     {
       icon: "/images/img_2_user.png",
-      title: "App Design",
-      description: "Lorem ipsum dolor sit amet . Imperdiet Lorem ipsum dolor sit amet consectetur"
+      title: "Brand Identity",
+      description: "Building strong visual identities through logo design, typography, and color systems."
     }
   ];
 
@@ -54,7 +54,7 @@ const ServicesSection = () => {
                   className="text-[16px] sm:text-[18px] md:text-[19px] lg:text-[20px] font-medium leading-[20px] sm:leading-[22px] md:leading-[23px] lg:leading-[24px] text-center text-text-medium"
                   style={{ fontFamily: 'Lato' }}
                 >
-                  Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam
+                  What I Can Do For You
                 </p>
               </div>
 

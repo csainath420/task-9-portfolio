@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import Header from '../../components/common/Header';
 import ServicesSection from './ServicesSection';
 import AboutSection from './AboutSection';
